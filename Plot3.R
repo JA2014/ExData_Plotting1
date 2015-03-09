@@ -14,3 +14,4 @@
 > legend("topright", pch = "-", col = c("black","red","blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))## make annotation for the x and y label, title and legend 
 > dev.copy(png, file="plot3.png")## copy the 'Plot' in a PNG file named 'plot3.png'.
 > dev.off()## close the PNG device.
+## the weekday are in french because of my regional setting. Jeu = thu, Ven = fri, sam = sat
